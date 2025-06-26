@@ -76,35 +76,3 @@ const AppNavbar = () => {
 export default AppNavbar
 
 
-/*
-<div className='navbar-container' bg={isDarkMode ? 'dark' : 'light'}>
-            <img
-                src="https://res.cloudinary.com/ducenz904/image/upload/v1750907743/Logo_e5tr2x.svg"
-                alt="logo"
-                bg={isDarkMode ? 'dark' : 'light'}
-            />
-            <Navbar bg={isDarkMode ? 'dark' : 'light'} variant={isDarkMode ? 'dark' : 'light'} expand="lg" sticky="top">
-                <Container>
-                    <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#resume">Resume</Nav.Link>
-                            <Nav.Link href="#skills">Skills</Nav.Link>
-                            <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
-                            <Button
-                                variant={isDarkMode ? 'light' : 'dark'}
-                                className="ms-3"
-                                onClick={toggleTheme}
-                            >
-                                {isDarkMode ? '☀️ ' : '🌙 '}
-                            </Button>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-        </div>
-        */

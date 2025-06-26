@@ -32,6 +32,14 @@
     background-color: #434343;
 }
 
+.this-line-light {
+    color: #000000;
+}
+
+.this-line-dark {
+    color: #ffffff;
+}
+
 .btn-info {
     border-radius: 5px;
     border: 0px none;
